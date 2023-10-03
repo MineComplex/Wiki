@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://minecomplex.net/docs/sitemap.xml.gz
