@@ -1,0 +1,32 @@
+# -----------------------------------------------------------------------------
+# Retype
+poweredByRetype: false
+input: .
+output: .retype
+# -----------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------
+# Ссылки на документацию
+#url: docs.minecomplex.ru
+#url: docs.minecomplex.net
+#url: docs.minecomplex.org
+#url: docs.minecomplex.com
+#url: minecomplex.ru/docs
+#url: minecomplex.org/docs
+#url: minecomplex.com/docs
+url: minecomplex.net/docs
+# -----------------------------------------------------------------------------
+favicon: static/logo.png
+
+branding:
+  title: MineComplex
+  label: Документация
+links:
+- text: Главная страница
+  link: https://minecomplex.net/
+- text: Наш Дискорд
+  link: https://discord.gg/minecomplex
+- text: Наш ВК
+  link: https://vk.com/minecomplexru
+footer:
+  copyright: "&copy; Copyright {{ year }}. Все права защищены."
