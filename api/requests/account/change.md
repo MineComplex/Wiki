@@ -13,10 +13,3 @@ icon: chevron-right
     "password": "newPassword"
 }
 ```
-
-Пример ответа:
-```
-{
-    "token": "XXXTOKENXXX"
-}
-```

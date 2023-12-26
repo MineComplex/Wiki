@@ -16,7 +16,7 @@ icon: chevron-right
         "playTime": 6104650
     },
     "session": {
-        "value": true,
+        "online": true,
         "server": "LOBBY_1",
         "status": "Сидит в Лобби"
     }
