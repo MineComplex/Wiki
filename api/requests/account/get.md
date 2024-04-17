@@ -4,17 +4,20 @@ icon: chevron-right
 ---
 
 # GET /account/
+Получить аккаунт
 
-Требуется валидный токен в заголовках запроса.
+Требуется авторизация.
 
 Пример ответа:
 ```
 {
     "id": "coaf",
     "username": "Coaf",
+    "socials": null,
+    "totp": null,
     "rank": "owner",
-    "lastSeen": 1696022430112,
-    "registeredAt": 1695657313064,
-    "gems": 0.0
+    "balance": 31340.80999999985,
+    "lastSeen": 1713282334588,
+    "registeredAt": 1709386444602
 }
 ```

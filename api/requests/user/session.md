@@ -4,6 +4,7 @@ icon: chevron-right
 ---
 
 # GET /user/:id/session
+Получить текущую сессию игрока
 
 Пример ответа:
 ```

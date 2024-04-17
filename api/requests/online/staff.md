@@ -4,6 +4,7 @@ icon: chevron-right
 ---
 
 # GET /online/staff
+Получить список персонала в сети
 
 Пример ответа:
 ```

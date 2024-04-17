@@ -4,6 +4,7 @@ icon: chevron-right
 ---
 
 # GET /user/:id/guild
+Получить банду игрока
 
 Пример ответа:
 ```

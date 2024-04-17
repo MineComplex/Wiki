@@ -4,6 +4,7 @@ icon: chevron-right
 ---
 
 # GET /user/:id/friends
+Получить список друзей игрока
 
 Пример ответа:
 ```
