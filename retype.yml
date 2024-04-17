@@ -6,14 +6,14 @@ output: .retype
 
 # -----------------------------------------------------------------------------
 # Ссылки на документацию
-#url: docs.minecomplex.ru
-#url: docs.minecomplex.net
-#url: docs.minecomplex.org
-#url: docs.minecomplex.com
+#url: wiki.minecomplex.ru
+#url: wiki.minecomplex.net
+#url: wiki.minecomplex.org
+#url: wiki.minecomplex.com
 #url: minecomplex.ru/docs
 #url: minecomplex.org/docs
 #url: minecomplex.com/docs
-url: docs.minecomplex.ru
+url: wiki.minecomplex.net
 # -----------------------------------------------------------------------------
 favicon: static/logo.png
 
