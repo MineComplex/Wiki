@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.minecomplex.ru/sitemap.xml.gz
+Sitemap: https://wiki.minecomplex.net/sitemap.xml.gz
