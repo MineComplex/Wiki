@@ -5,6 +5,7 @@ icon: chevron-right
 
 # GET /oauth2/authorization/:type
 Авторизоваться через соц. сеть
+
 Виды соц. сетей:
 - vk
 - discord
