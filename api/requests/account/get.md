@@ -13,8 +13,10 @@ icon: chevron-right
 {
     "id": "coaf",
     "username": "Coaf",
-    "socials": null,
-    "totp": null,
+    "socials": {
+        "discord": 427505684230307850
+    },
+    "totp": "discord",
     "rank": "owner",
     "balance": 31340.80999999985,
     "lastSeen": 1713282334588,

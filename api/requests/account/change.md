@@ -14,3 +14,10 @@ icon: chevron-right
     "password": "newPassword"
 }
 ```
+
+Пример положительного ответа:
+```
+{
+    "success": true
+}
+```

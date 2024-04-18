@@ -10,5 +10,15 @@ icon: chevron-right
 
 Тело запроса в JSON:
 ```
-потом добавлю
+[
+    {
+        "method": "FREEKASSA",
+        "category": "ranks",
+        "product": "sapphire",
+        "amount": 1499.99,
+        "createdAt": 1713427953994,
+        "paidAt": 171342790000,
+        "refundedAt": null
+    }
+]
 ```
