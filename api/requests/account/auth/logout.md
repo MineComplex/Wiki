@@ -9,7 +9,5 @@ icon: chevron-right
 Пример положительного ответа:
 ```
 Удаляет "remember-me" и "JSESSIONID" куки
-{
-    "success": true
-}
+Возвращает код 200
 ```
