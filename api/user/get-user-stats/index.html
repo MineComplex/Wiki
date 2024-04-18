@@ -3,39 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766752351396">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766755112329">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title>GET /user/:id/session</title>
-    <meta name="title" content="GET /user/:id/session">
-    <meta name="description" content="Получить текущую сессию игрока">
+    <title>GET /user/:id/stats</title>
+    <meta name="title" content="GET /user/:id/stats">
+    <meta name="description" content="Получить статистику игрока на всех режимах">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://wiki.minecomplex.net/api/user/session/">
+    <link rel="canonical" href="https://wiki.minecomplex.net/api/user/get-user-stats/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://wiki.minecomplex.net/api/user/session/">
-    <meta property="og:title" content="GET /user/:id/session">
-    <meta property="og:description" content="Получить текущую сессию игрока">
+    <meta property="og:url" content="https://wiki.minecomplex.net/api/user/get-user-stats/">
+    <meta property="og:title" content="GET /user/:id/stats">
+    <meta property="og:description" content="Получить статистику игрока на всех режимах">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://wiki.minecomplex.net/api/user/session/">
-    <meta property="twitter:title" content="GET /user/:id/session">
-    <meta property="twitter:description" content="Получить текущую сессию игрока">
+    <meta property="twitter:url" content="https://wiki.minecomplex.net/api/user/get-user-stats/">
+    <meta property="twitter:title" content="GET /user/:id/stats">
+    <meta property="twitter:description" content="Получить статистику игрока на всех режимах">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/logo.png" rel="icon">
-    <link href="../../../resources/css/retype.css?v=3.5.0.766752351396" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.766755112329" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766752351396" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766755112329" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766752351396" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766755112329" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -176,13 +176,13 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="get-useridsession" class="break-words">
+<doc-anchor-target id="get-useridstats" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#get-useridsession">#</doc-anchor-trigger>
-        <span>GET /user/:id/session</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#get-useridstats">#</doc-anchor-trigger>
+        <span>GET /user/:id/stats</span>
     </h1>
 </doc-anchor-target>
-<p>Получить текущую сессию игрока</p>
+<p>Получить статистику игрока на всех режимах</p>
 <p>Пример ответа:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">{
@@ -190,13 +190,36 @@
         &quot;id&quot;: &quot;coaf&quot;,
         &quot;username&quot;: &quot;Coaf&quot;,
         &quot;rank&quot;: &quot;owner&quot;,
-        &quot;lastSeen&quot;: 1696022430112,
-        &quot;playTime&quot;: 6104650
+        &quot;lastSeen&quot;: 1713385037514,
+        &quot;playTime&quot;: 1483
     },
-    &quot;session&quot;: {
-        &quot;online&quot;: true,
-        &quot;server&quot;: &quot;LOBBY_1&quot;,
-        &quot;status&quot;: &quot;Сидит в Лобби&quot;
+    &quot;stats&quot;: {
+        &quot;PRISON&quot;: {
+            &quot;raw_blocks_mined&quot;: 11400,
+            &quot;blocks_mined&quot;: 11400,
+            &quot;playtime&quot;: 178
+        },
+        &quot;LOBBY&quot;: {
+            &quot;playtime&quot;: 981
+        },
+        &quot;ANNI&quot;: {
+            &quot;wins&quot;: 1,
+            &quot;kills&quot;: 1,
+            &quot;games&quot;: 1,
+            &quot;wood&quot;: 12,
+            &quot;playtime&quot;: 2,
+            &quot;deaths&quot;: 3
+        },
+        &quot;BUILD&quot;: {
+            &quot;playtime&quot;: 61
+        },
+        &quot;GLOBAL&quot;: {
+            &quot;votes&quot;: 2,
+            &quot;playtime&quot;: 1483
+        },
+        &quot;LIMBO&quot;: {
+            &quot;playtime&quot;: 261
+        }
     }
 }</code></pre>
 </doc-codeblock></div>
@@ -209,20 +232,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../api/user/guild/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../api/user/get-user-current-session/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">GET /user/:id/guild</span>
+                                                <span class="block mt-1">GET /user/:id/session</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../api/user/stats/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../api/online/get-server-online/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">GET /user/:id/stats</span>
+                                                <span class="block mt-1">GET /online</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -266,6 +289,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "GET /user/:id/session", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "GET /user/:id/stats", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
