@@ -1,5 +1,5 @@
 ---
-route: /api/user/stats
+route: /api/user/get-user-stats
 icon: chevron-right
 ---
 

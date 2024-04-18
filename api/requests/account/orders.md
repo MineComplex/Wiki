@@ -1,5 +1,5 @@
 ---
-route: /api/account/orders
+route: /api/account/get-done-orders
 icon: chevron-right
 ---
 
@@ -19,6 +19,7 @@ icon: chevron-right
         "createdAt": 1713427953994,
         "paidAt": 171342790000,
         "refundedAt": null
-    }
+    },
+    ...
 ]
 ```

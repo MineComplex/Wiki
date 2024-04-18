@@ -1,5 +1,5 @@
 ---
-route: /api/user/session
+route: /api/user/get-user-current-session
 icon: chevron-right
 ---
 

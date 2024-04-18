@@ -1,5 +1,5 @@
 ---
-route: /api/account/sessions
+route: /api/account/get-session-history
 icon: chevron-right
 ---
 
@@ -16,6 +16,7 @@ icon: chevron-right
     {
         "ip": "127.0.0.1",
         "timestamp": 1713280490307
-    }
+    },
+    ...
 ]
 ```

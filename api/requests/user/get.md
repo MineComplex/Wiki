@@ -1,5 +1,5 @@
 ---
-route: /api/user/get
+route: /api/user/get-user
 icon: chevron-right
 ---
 

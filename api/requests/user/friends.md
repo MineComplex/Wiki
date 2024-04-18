@@ -1,5 +1,5 @@
 ---
-route: /api/user/friends
+route: /api/user/get-user-friends
 icon: chevron-right
 ---
 
@@ -24,13 +24,7 @@ icon: chevron-right
             "lastSeen": 1696022156992,
             "playTime": 2341231
         },
-        {
-            "id": "ahapxict",
-            "username": "AHAPXICT",
-            "rank": "admin",
-            "lastSeen": 1696022210042,
-            "playTime": 345521
-        }
+        ...
     ]
 }
 ```

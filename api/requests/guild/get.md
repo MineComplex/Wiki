@@ -1,5 +1,5 @@
 ---
-route: /api/guild/get
+route: /api/guild/get-guild
 icon: chevron-right
 ---
 

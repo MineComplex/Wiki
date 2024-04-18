@@ -1,5 +1,5 @@
 ---
-route: /api/account/get
+route: /api/account/get-profile
 icon: chevron-right
 ---
 

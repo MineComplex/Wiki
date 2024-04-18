@@ -1,5 +1,5 @@
 ---
-route: /api/account/punishments
+route: /api/account/get-punishment-history
 icon: chevron-right
 ---
 
@@ -19,6 +19,7 @@ icon: chevron-right
         "issuedAt": 1713427953994,
         "expiresAt": null,
         "active": true
-    }
+    },
+    ...
 ]
 ```
