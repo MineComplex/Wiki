@@ -30,4 +30,5 @@
 *.iml
 *.ipr
 *.iws
+.vscode/
 .idea/
