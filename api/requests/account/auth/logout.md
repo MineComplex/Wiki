@@ -7,7 +7,14 @@ icon: chevron-right
 Удалить сессию
 
 Пример положительного ответа:
+
 ```
-Удаляет "remember-me" и "JSESSIONID" куки
+Удаляет "JSESSIONID" и "remember-me" куки
 Возвращает код 200
+```
+
+```
+{
+    "success": true
+}
 ```

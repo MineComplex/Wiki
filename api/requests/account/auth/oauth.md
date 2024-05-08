@@ -9,10 +9,15 @@ icon: chevron-right
 Виды соц. сетей:
 - vk
 - discord
-- telegram
 
 Пример положительного ответа:
 ```
-Устанавливает куки "JSESSIONID"
-Возвращает код 200
+Устанавливает куки "JSESSIONID" и "remember-me"
+Редиректит на https://minecomplex.net/account
 ```
+
+Пример отрицательного ответа:
+```
+Редиректит на https://minecomplex.net/play?error=user_not_found
+```
+

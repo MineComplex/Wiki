@@ -16,6 +16,12 @@ icon: chevron-right
 
 Пример положительного ответа:
 ```
-Устанавливает куки "JSESSIONID"
+Устанавливает куки "JSESSIONID" и "remember-me"
 Возвращает код 200
+```
+
+```
+{
+    "success": true
+}
 ```
