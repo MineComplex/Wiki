@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.768509017625">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.768691038670">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>POST /account/link</title>
     <meta name="title" content="POST /account/link">
-    <meta name="description" content="Привязать аккаунт к соц. сети">
+    <meta name="description" content="Привязать аккаунт к соц. сети, используя полученный код в ответе. Чтобы привязать соц. сеть нужно прислать">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://wiki.minecomplex.net/api/account/link-social-media/">
@@ -20,22 +20,22 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://wiki.minecomplex.net/api/account/link-social-media/">
     <meta property="og:title" content="POST /account/link">
-    <meta property="og:description" content="Привязать аккаунт к соц. сети">
+    <meta property="og:description" content="Привязать аккаунт к соц. сети, используя полученный код в ответе. Чтобы привязать соц. сеть нужно прислать">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://wiki.minecomplex.net/api/account/link-social-media/">
     <meta property="twitter:title" content="POST /account/link">
-    <meta property="twitter:description" content="Привязать аккаунт к соц. сети">
+    <meta property="twitter:description" content="Привязать аккаунт к соц. сети, используя полученный код в ответе. Чтобы привязать соц. сеть нужно прислать">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/logo.png" rel="icon">
-    <link href="../../../resources/css/retype.css?v=3.5.0.768509017625" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.768691038670" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.768509017625" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.768691038670" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.768509017625" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.768691038670" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -182,19 +182,23 @@
         <span>POST /account/link</span>
     </h1>
 </doc-anchor-target>
-<p>Привязать аккаунт к соц. сети</p>
+<p>Привязать аккаунт к соц. сети, используя
+полученный код в ответе.
+Чтобы привязать соц. сеть нужно прислать
+этот код боту в чат в течении минуты.</p>
 <p>Требуется авторизация.</p>
 <p>Тело запроса в JSON:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">{
-    &quot;code&quot;: &quot;A83kAMz&quot;
+    &quot;type&quot;: &quot;VK&quot;
 }</code></pre>
 </doc-codeblock></div>
 <p>Пример положительного ответа:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">{
     &quot;type&quot;: &quot;VK&quot;,
-    &quot;user&quot;: 460100799
+    &quot;code&quot;: &quot;A8AlkZz&quot;,
+    &quot;expiresAt&quot;: 1696251636727
 }</code></pre>
 </doc-codeblock></div>
 
