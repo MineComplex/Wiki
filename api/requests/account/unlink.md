@@ -18,7 +18,6 @@ icon: chevron-right
 Пример положительного ответа:
 ```
 {
-    "type": "VK",
-    "user": 460100799
+    "requiredVerification": true
 }
 ```
