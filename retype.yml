@@ -13,7 +13,7 @@ output: .retype
 #url: minecomplex.ru/docs
 #url: minecomplex.org/docs
 #url: minecomplex.com/docs
-url: wiki.minecomplex.net
+url: wiki.minecomplex.ru
 # -----------------------------------------------------------------------------
 favicon: static/logo.png
 
@@ -22,10 +22,12 @@ branding:
   label: Документация
 links:
 - text: Главная страница
-  link: https://minecomplex.net/
-- text: Наш Дискорд
-  link: https://discord.gg/minecomplex
+  link: https://minecomplex.ru/
 - text: Наш ВК
   link: https://vk.com/minecomplexru
+- text: Наш Discord
+  link: https://discord.gg/minecomplex
+- text: Наш Telegram
+  link: https://t.me/minecomplex
 footer:
   copyright: "&copy; Copyright {{ year }}. Все права защищены."
